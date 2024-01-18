@@ -1,0 +1,147 @@
+[2024-01-18T21:36:39.296+0300] {processor.py:153} INFO - Started process (PID=3282) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:36:39.298+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:36:39.299+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:36:39.299+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:36:39.328+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:36:39.344+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:36:39.343+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:36:39.384+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:36:39.383+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:36:39.421+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.131 seconds
+[2024-01-18T21:37:31.469+0300] {processor.py:153} INFO - Started process (PID=3342) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:37:31.475+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:37:31.478+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:37:31.477+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:37:31.561+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:37:31.643+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:37:31.643+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:37:31.739+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:37:31.739+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:37:32.019+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.569 seconds
+[2024-01-18T21:38:39.876+0300] {processor.py:153} INFO - Started process (PID=4070) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:38:39.878+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:38:39.880+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:38:39.879+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:38:39.911+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:38:39.955+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:38:39.955+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:38:40.199+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:38:40.198+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:38:40.238+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.371 seconds
+[2024-01-18T21:39:47.439+0300] {processor.py:153} INFO - Started process (PID=4172) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:39:47.442+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:39:47.445+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:39:47.444+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:39:47.476+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:39:47.522+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:39:47.522+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:39:47.767+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:39:47.767+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:39:47.804+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.375 seconds
+[2024-01-18T21:40:45.845+0300] {processor.py:153} INFO - Started process (PID=4230) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:40:45.848+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:40:45.851+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:40:45.850+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:40:45.955+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:40:46.275+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:40:46.275+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:40:46.315+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:40:46.314+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:40:46.359+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.530 seconds
+[2024-01-18T21:41:53.019+0300] {processor.py:153} INFO - Started process (PID=4345) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:41:53.022+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:41:53.023+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:41:53.023+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:41:53.277+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:41:53.317+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:41:53.316+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:41:53.355+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:41:53.355+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:41:53.404+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.392 seconds
+[2024-01-18T21:42:50.229+0300] {processor.py:153} INFO - Started process (PID=4398) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:42:50.232+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:42:50.234+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:42:50.233+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:42:50.488+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:42:50.518+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:42:50.518+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:42:50.551+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:42:50.551+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:42:50.589+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.368 seconds
+[2024-01-18T21:43:39.940+0300] {processor.py:153} INFO - Started process (PID=4453) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:43:39.942+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:43:39.944+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:43:39.943+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:43:39.975+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:43:40.082+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:43:40.082+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:43:40.146+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:43:40.145+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:43:40.183+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.251 seconds
+[2024-01-18T21:44:29.364+0300] {processor.py:153} INFO - Started process (PID=4505) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:44:29.367+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:44:29.368+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:44:29.368+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:44:29.401+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:44:29.442+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:44:29.442+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:44:29.484+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:44:29.483+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:44:29.532+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.175 seconds
+[2024-01-18T21:45:21.376+0300] {processor.py:153} INFO - Started process (PID=4585) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:45:21.379+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:45:21.380+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:45:21.380+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:45:21.418+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:45:21.474+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:45:21.474+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:45:21.516+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:45:21.515+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:45:21.564+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.198 seconds
+[2024-01-18T21:46:11.676+0300] {processor.py:153} INFO - Started process (PID=4658) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:46:11.679+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:46:11.681+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:46:11.680+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:46:11.722+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:46:11.768+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:46:11.768+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:46:11.810+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:46:11.810+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:46:11.858+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.190 seconds
+[2024-01-18T21:47:00.954+0300] {processor.py:153} INFO - Started process (PID=4713) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:47:00.957+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:47:00.958+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:00.958+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:47:00.990+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:47:01.035+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:01.034+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:47:01.076+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:01.075+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:47:01.113+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.167 seconds
+[2024-01-18T21:47:51.258+0300] {processor.py:153} INFO - Started process (PID=4784) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:47:51.261+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:47:51.263+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:51.263+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:47:51.308+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:47:51.380+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:51.379+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:47:51.446+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:51.446+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:47:51.494+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.243 seconds
+[2024-01-18T21:48:41.454+0300] {processor.py:153} INFO - Started process (PID=4847) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:48:41.457+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:48:41.458+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:48:41.458+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:48:41.488+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:48:41.532+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:48:41.531+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:48:41.573+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:48:41.573+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:48:41.675+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.230 seconds
+[2024-01-18T21:49:32.701+0300] {processor.py:153} INFO - Started process (PID=4896) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:49:32.704+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:49:32.706+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:49:32.706+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:49:32.740+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:49:32.786+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:49:32.786+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:49:32.839+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:49:32.839+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:49:32.879+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.187 seconds
+[2024-01-18T21:50:23.394+0300] {processor.py:153} INFO - Started process (PID=4943) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:50:23.397+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:50:23.398+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:50:23.398+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:50:23.431+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:50:23.479+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:50:23.478+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:50:23.518+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:50:23.518+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:50:23.620+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.234 seconds
+[2024-01-18T21:51:13.826+0300] {processor.py:153} INFO - Started process (PID=4992) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:51:13.829+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:51:13.831+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:51:13.830+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:51:13.862+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:51:13.910+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:51:13.909+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:51:13.957+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:51:13.957+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:51:14.000+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.181 seconds
+[2024-01-18T21:52:07.502+0300] {processor.py:153} INFO - Started process (PID=5045) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:52:07.504+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:52:07.510+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:52:07.509+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:52:07.558+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:52:07.615+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:52:07.615+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:52:07.703+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:52:07.702+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:52:07.782+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.287 seconds
+[2024-01-18T21:53:06.455+0300] {processor.py:153} INFO - Started process (PID=5098) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:53:06.460+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:53:06.463+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:53:06.462+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:53:06.534+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:53:06.577+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:53:06.577+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:53:06.616+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:53:06.615+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:53:06.660+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.228 seconds
+[2024-01-18T21:54:05.934+0300] {processor.py:153} INFO - Started process (PID=5153) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:54:05.939+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T21:54:05.941+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:54:05.940+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:54:06.026+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T21:54:06.112+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:54:06.112+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:54:06.182+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:54:06.182+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T21:54:06.249+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.326 seconds
+[2024-01-18T22:00:15.407+0300] {processor.py:153} INFO - Started process (PID=5489) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T22:00:15.410+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-18T22:00:15.411+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:00:15.411+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T22:00:15.447+0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-18T22:00:15.540+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:00:15.540+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T22:00:15.608+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:00:15.607+0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-18T22:00:15.695+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.296 seconds

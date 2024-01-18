@@ -1,0 +1,140 @@
+[2024-01-18T21:37:20.107+0300] {processor.py:153} INFO - Started process (PID=3329) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:37:20.109+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:37:20.111+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:37:20.110+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:37:20.176+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:37:20.244+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:37:20.244+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:37:20.566+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:37:20.566+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:37:20.622+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.523 seconds
+[2024-01-18T21:38:26.972+0300] {processor.py:153} INFO - Started process (PID=4011) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:38:26.982+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:38:26.984+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:38:26.984+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:38:27.263+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:38:27.437+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:38:27.437+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:38:28.043+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:38:28.040+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:38:28.113+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 1.169 seconds
+[2024-01-18T21:39:37.239+0300] {processor.py:153} INFO - Started process (PID=4162) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:39:37.242+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:39:37.243+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:39:37.243+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:39:37.302+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:39:37.577+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:39:37.577+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:39:37.613+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:39:37.613+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:39:37.666+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.436 seconds
+[2024-01-18T21:40:34.399+0300] {processor.py:153} INFO - Started process (PID=4220) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:40:34.402+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:40:34.403+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:40:34.403+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:40:34.471+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:40:34.807+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:40:34.807+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:40:34.858+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:40:34.858+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:40:34.920+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.530 seconds
+[2024-01-18T21:41:42.383+0300] {processor.py:153} INFO - Started process (PID=4335) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:41:42.386+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:41:42.388+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:41:42.387+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:41:42.745+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:41:42.798+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:41:42.798+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:41:42.832+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:41:42.832+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:41:42.869+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.499 seconds
+[2024-01-18T21:42:38.809+0300] {processor.py:153} INFO - Started process (PID=4388) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:42:38.811+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:42:38.813+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:42:38.812+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:42:39.058+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:42:39.110+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:42:39.109+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:42:39.147+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:42:39.147+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:42:39.187+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.385 seconds
+[2024-01-18T21:43:32.127+0300] {processor.py:153} INFO - Started process (PID=4442) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:43:32.130+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:43:32.131+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:43:32.131+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:43:32.181+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:43:32.242+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:43:32.242+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:43:32.286+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:43:32.286+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:43:32.325+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.205 seconds
+[2024-01-18T21:44:19.770+0300] {processor.py:153} INFO - Started process (PID=4495) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:44:19.773+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:44:19.774+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:44:19.774+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:44:19.825+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:44:19.886+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:44:19.886+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:44:19.934+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:44:19.934+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:44:19.974+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.212 seconds
+[2024-01-18T21:45:13.501+0300] {processor.py:153} INFO - Started process (PID=4570) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:45:13.504+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:45:13.506+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:45:13.505+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:45:13.553+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:45:13.617+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:45:13.616+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:45:13.656+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:45:13.656+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:45:13.694+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.201 seconds
+[2024-01-18T21:46:02.474+0300] {processor.py:153} INFO - Started process (PID=4634) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:46:02.477+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:46:02.478+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:46:02.478+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:46:02.529+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:46:02.592+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:46:02.592+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:46:02.634+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:46:02.633+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:46:02.673+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.205 seconds
+[2024-01-18T21:46:50.550+0300] {processor.py:153} INFO - Started process (PID=4703) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:46:50.553+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:46:50.554+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:46:50.554+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:46:50.606+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:46:50.668+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:46:50.667+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:46:50.714+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:46:50.714+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:46:50.758+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.215 seconds
+[2024-01-18T21:47:40.861+0300] {processor.py:153} INFO - Started process (PID=4768) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:47:40.865+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:47:40.866+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:40.866+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:47:40.920+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:47:40.985+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:40.984+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:47:41.029+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:41.028+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:47:41.067+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.214 seconds
+[2024-01-18T21:48:31.723+0300] {processor.py:153} INFO - Started process (PID=4837) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:48:31.725+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:48:31.726+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:48:31.726+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:48:31.777+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:48:31.841+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:48:31.841+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:48:31.889+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:48:31.889+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:48:31.935+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.220 seconds
+[2024-01-18T21:49:23.468+0300] {processor.py:153} INFO - Started process (PID=4886) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:49:23.470+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:49:23.472+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:49:23.471+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:49:23.520+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:49:23.582+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:49:23.582+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:49:23.622+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:49:23.622+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:49:23.662+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.202 seconds
+[2024-01-18T21:50:13.165+0300] {processor.py:153} INFO - Started process (PID=4933) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:50:13.167+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:50:13.169+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:50:13.168+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:50:13.217+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:50:13.279+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:50:13.279+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:50:13.319+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:50:13.318+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:50:13.358+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.201 seconds
+[2024-01-18T21:51:04.708+0300] {processor.py:153} INFO - Started process (PID=4983) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:51:04.711+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:51:04.712+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:51:04.712+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:51:04.766+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:51:04.831+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:51:04.831+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:51:04.879+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:51:04.879+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:51:04.928+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.228 seconds
+[2024-01-18T21:51:56.599+0300] {processor.py:153} INFO - Started process (PID=5033) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:51:56.604+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:51:56.610+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:51:56.610+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:51:56.680+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:51:56.785+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:51:56.785+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:51:56.830+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:51:56.830+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:51:56.890+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.304 seconds
+[2024-01-18T21:52:54.496+0300] {processor.py:153} INFO - Started process (PID=5087) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:52:54.507+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:52:54.508+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:52:54.508+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:52:54.594+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:52:54.746+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:52:54.746+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:52:54.855+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:52:54.854+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:52:54.920+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.438 seconds
+[2024-01-18T21:53:52.441+0300] {processor.py:153} INFO - Started process (PID=5142) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:53:52.446+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T21:53:52.447+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:53:52.447+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:53:52.524+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T21:53:52.628+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:53:52.628+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:53:52.712+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:53:52.712+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T21:53:52.776+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.346 seconds
+[2024-01-18T22:01:02.575+0300] {processor.py:153} INFO - Started process (PID=5539) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T22:01:02.583+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-01-18T22:01:02.585+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:01:02.584+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T22:01:02.663+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-01-18T22:01:02.763+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:01:02.763+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T22:01:02.880+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:01:02.880+0300] {dag.py:3452} INFO - Setting next_dagrun for example_bash_operator to 2024-01-17T00:00:00+00:00, run_after=2024-01-18T00:00:00+00:00
+[2024-01-18T22:01:02.949+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.400 seconds

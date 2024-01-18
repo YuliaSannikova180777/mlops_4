@@ -1,0 +1,147 @@
+[2024-01-18T21:36:44.630+0300] {processor.py:153} INFO - Started process (PID=3291) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:36:44.635+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:36:44.638+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:36:44.636+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:36:44.734+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:36:44.774+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:36:44.774+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:36:44.846+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:36:44.846+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:36:44.892+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.276 seconds
+[2024-01-18T21:37:37.897+0300] {processor.py:153} INFO - Started process (PID=3358) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:37:37.899+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:37:37.901+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:37:37.900+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:37:37.950+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:37:37.997+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:37:37.996+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:37:38.232+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:37:38.232+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:37:38.270+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.380 seconds
+[2024-01-18T21:38:46.671+0300] {processor.py:153} INFO - Started process (PID=4080) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:38:46.677+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:38:46.680+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:38:46.679+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:38:46.800+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:38:46.902+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:38:46.901+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:38:47.225+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:38:47.224+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:38:47.291+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.630 seconds
+[2024-01-18T21:39:53.771+0300] {processor.py:153} INFO - Started process (PID=4179) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:39:53.774+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:39:53.775+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:39:53.775+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:39:53.826+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:39:54.082+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:39:54.082+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:39:54.131+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:39:54.131+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:39:54.174+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.416 seconds
+[2024-01-18T21:40:54.188+0300] {processor.py:153} INFO - Started process (PID=4246) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:40:54.198+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:40:54.199+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:40:54.199+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:40:54.294+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:40:54.654+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:40:54.653+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:40:54.693+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:40:54.692+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:40:54.755+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.586 seconds
+[2024-01-18T21:41:59.109+0300] {processor.py:153} INFO - Started process (PID=4350) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:41:59.112+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:41:59.114+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:41:59.114+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:41:59.477+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:41:59.509+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:41:59.508+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:41:59.544+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:41:59.544+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:41:59.587+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.487 seconds
+[2024-01-18T21:42:56.948+0300] {processor.py:153} INFO - Started process (PID=4405) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:42:56.951+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:42:56.952+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:42:56.952+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:42:57.207+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:42:57.239+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:42:57.239+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:42:57.279+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:42:57.278+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:42:57.314+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.373 seconds
+[2024-01-18T21:43:45.402+0300] {processor.py:153} INFO - Started process (PID=4459) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:43:45.405+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:43:45.406+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:43:45.406+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:43:45.457+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:43:45.496+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:43:45.496+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:43:45.545+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:43:45.545+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:43:45.584+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.189 seconds
+[2024-01-18T21:44:34.716+0300] {processor.py:153} INFO - Started process (PID=4510) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:44:34.718+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:44:34.720+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:44:34.719+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:44:34.772+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:44:34.814+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:44:34.813+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:44:34.852+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:44:34.852+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:44:34.890+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.182 seconds
+[2024-01-18T21:45:26.782+0300] {processor.py:153} INFO - Started process (PID=4600) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:45:26.785+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:45:26.787+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:45:26.787+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:45:26.854+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:45:26.948+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:45:26.948+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:45:27.016+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:45:27.016+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:45:27.114+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.340 seconds
+[2024-01-18T21:46:18.175+0300] {processor.py:153} INFO - Started process (PID=4667) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:46:18.178+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:46:18.179+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:46:18.179+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:46:18.234+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:46:18.279+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:46:18.279+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:46:18.315+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:46:18.314+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:46:18.354+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.186 seconds
+[2024-01-18T21:47:06.753+0300] {processor.py:153} INFO - Started process (PID=4719) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:47:06.757+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:47:06.759+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:06.758+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:47:06.824+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:47:06.875+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:06.875+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:47:06.921+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:06.920+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:47:06.974+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.229 seconds
+[2024-01-18T21:47:57.050+0300] {processor.py:153} INFO - Started process (PID=4793) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:47:57.053+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:47:57.055+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:57.054+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:47:57.103+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:47:57.145+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:57.144+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:47:57.185+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:57.185+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:47:57.222+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.179 seconds
+[2024-01-18T21:48:47.544+0300] {processor.py:153} INFO - Started process (PID=4852) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:48:47.547+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:48:47.549+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:48:47.549+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:48:47.606+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:48:47.657+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:48:47.657+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:48:47.700+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:48:47.700+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:48:47.742+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.206 seconds
+[2024-01-18T21:49:38.019+0300] {processor.py:153} INFO - Started process (PID=4901) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:49:38.021+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:49:38.024+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:49:38.024+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:49:38.075+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:49:38.120+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:49:38.120+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:49:38.160+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:49:38.159+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:49:38.202+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.194 seconds
+[2024-01-18T21:50:29.495+0300] {processor.py:153} INFO - Started process (PID=4951) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:50:29.497+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:50:29.499+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:50:29.498+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:50:29.564+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:50:29.608+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:50:29.608+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:50:29.647+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:50:29.647+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:50:29.687+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.200 seconds
+[2024-01-18T21:51:19.119+0300] {processor.py:153} INFO - Started process (PID=4998) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:51:19.122+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:51:19.125+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:51:19.125+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:51:19.175+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:51:19.218+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:51:19.218+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:51:19.264+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:51:19.263+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:51:19.306+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.194 seconds
+[2024-01-18T21:52:14.210+0300] {processor.py:153} INFO - Started process (PID=5052) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:52:14.213+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:52:14.215+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:52:14.214+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:52:14.288+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:52:14.403+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:52:14.399+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:52:14.525+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:52:14.525+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:52:14.645+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.444 seconds
+[2024-01-18T21:53:13.042+0300] {processor.py:153} INFO - Started process (PID=5103) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:53:13.045+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:53:13.047+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:53:13.047+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:53:13.108+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:53:13.158+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:53:13.158+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:53:13.207+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:53:13.207+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:53:13.250+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.217 seconds
+[2024-01-18T21:54:12.691+0300] {processor.py:153} INFO - Started process (PID=5158) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:54:12.694+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T21:54:12.696+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:54:12.695+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:54:12.793+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T21:54:12.867+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:54:12.867+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T21:54:12.943+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:54:12.942+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T21:54:13.033+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.356 seconds
+[2024-01-18T22:00:22.295+0300] {processor.py:153} INFO - Started process (PID=5494) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T22:00:22.303+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-18T22:00:22.311+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:00:22.310+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T22:00:22.394+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-18T22:00:22.482+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:00:22.482+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T22:00:22.556+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:00:22.555+0300] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-18T22:00:22.627+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.345 seconds

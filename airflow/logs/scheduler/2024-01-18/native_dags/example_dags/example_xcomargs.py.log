@@ -1,0 +1,168 @@
+[2024-01-18T21:36:40.568+0300] {processor.py:153} INFO - Started process (PID=3283) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:36:40.570+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:36:40.571+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:36:40.571+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:36:40.630+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:36:40.647+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:36:40.647+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:36:40.695+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:36:40.695+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:36:40.701+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:36:40.700+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:36:40.765+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.205 seconds
+[2024-01-18T21:37:32.371+0300] {processor.py:153} INFO - Started process (PID=3343) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:37:32.374+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:37:32.375+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:37:32.375+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:37:32.454+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:37:32.514+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:37:32.514+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:37:32.844+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:37:32.844+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:37:32.855+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:37:32.855+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:37:32.971+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.607 seconds
+[2024-01-18T21:38:41.361+0300] {processor.py:153} INFO - Started process (PID=4071) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:38:41.365+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:38:41.367+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:38:41.366+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:38:41.426+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:38:41.482+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:38:41.482+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:38:41.705+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:38:41.704+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:38:41.711+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:38:41.711+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:38:41.745+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.392 seconds
+[2024-01-18T21:39:48.769+0300] {processor.py:153} INFO - Started process (PID=4173) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:39:48.772+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:39:48.774+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:39:48.773+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:39:48.837+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:39:49.100+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:39:49.100+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:39:49.134+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:39:49.134+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:39:49.140+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:39:49.140+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:39:49.175+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.413 seconds
+[2024-01-18T21:40:47.514+0300] {processor.py:153} INFO - Started process (PID=4233) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:40:47.518+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:40:47.519+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:40:47.519+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:40:47.587+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:40:47.923+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:40:47.922+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:40:47.987+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:40:47.987+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:40:47.996+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:40:47.996+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:40:48.034+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.527 seconds
+[2024-01-18T21:41:54.611+0300] {processor.py:153} INFO - Started process (PID=4346) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:41:54.614+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:41:54.615+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:41:54.615+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:41:54.865+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:41:54.914+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:41:54.913+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:41:54.949+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:41:54.948+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:41:54.957+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:41:54.957+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:41:54.994+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.390 seconds
+[2024-01-18T21:42:51.286+0300] {processor.py:153} INFO - Started process (PID=4401) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:42:51.289+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:42:51.290+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:42:51.290+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:42:51.619+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:42:51.671+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:42:51.671+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:42:51.712+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:42:51.712+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:42:51.719+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:42:51.719+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:42:51.757+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.485 seconds
+[2024-01-18T21:43:41.412+0300] {processor.py:153} INFO - Started process (PID=4454) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:43:41.414+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:43:41.416+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:43:41.416+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:43:41.471+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:43:41.516+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:43:41.516+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:43:41.566+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:43:41.565+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:43:41.577+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:43:41.577+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:43:41.613+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.209 seconds
+[2024-01-18T21:44:30.645+0300] {processor.py:153} INFO - Started process (PID=4506) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:44:30.648+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:44:30.650+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:44:30.650+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:44:30.708+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:44:30.758+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:44:30.758+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:44:30.796+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:44:30.795+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:44:30.803+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:44:30.802+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:44:30.839+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.204 seconds
+[2024-01-18T21:45:22.778+0300] {processor.py:153} INFO - Started process (PID=4590) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:45:22.781+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:45:22.782+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:45:22.782+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:45:22.842+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:45:22.916+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:45:22.915+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:45:22.962+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:45:22.962+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:45:22.968+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:45:22.967+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:45:23.016+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.245 seconds
+[2024-01-18T21:46:13.056+0300] {processor.py:153} INFO - Started process (PID=4660) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:46:13.059+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:46:13.060+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:46:13.060+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:46:13.155+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:46:13.206+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:46:13.206+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:46:13.256+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:46:13.256+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:46:13.263+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:46:13.263+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:46:13.311+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.263 seconds
+[2024-01-18T21:47:02.243+0300] {processor.py:153} INFO - Started process (PID=4714) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:47:02.245+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:47:02.246+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:02.246+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:47:02.304+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:47:02.354+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:02.354+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:47:02.400+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:02.400+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:47:02.407+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:02.407+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:47:02.447+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.214 seconds
+[2024-01-18T21:47:52.673+0300] {processor.py:153} INFO - Started process (PID=4789) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:47:52.676+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:47:52.678+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:52.678+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:47:52.748+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:47:52.820+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:52.820+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:47:52.871+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:52.871+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:47:52.882+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:47:52.881+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:47:52.952+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.288 seconds
+[2024-01-18T21:48:42.833+0300] {processor.py:153} INFO - Started process (PID=4848) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:48:42.836+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:48:42.837+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:48:42.837+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:48:42.893+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:48:42.946+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:48:42.945+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:48:42.986+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:48:42.985+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:48:42.991+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:48:42.991+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:48:43.028+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.202 seconds
+[2024-01-18T21:49:33.990+0300] {processor.py:153} INFO - Started process (PID=4897) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:49:33.993+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:49:33.997+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:49:33.997+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:49:34.059+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:49:34.110+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:49:34.110+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:49:34.150+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:49:34.150+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:49:34.157+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:49:34.157+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:49:34.203+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.220 seconds
+[2024-01-18T21:50:24.793+0300] {processor.py:153} INFO - Started process (PID=4944) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:50:24.795+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:50:24.797+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:50:24.796+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:50:24.852+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:50:24.901+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:50:24.901+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:50:24.943+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:50:24.943+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:50:24.950+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:50:24.949+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:50:24.987+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.203 seconds
+[2024-01-18T21:51:15.117+0300] {processor.py:153} INFO - Started process (PID=4993) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:51:15.120+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:51:15.122+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:51:15.121+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:51:15.186+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:51:15.238+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:51:15.238+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:51:15.276+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:51:15.275+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:51:15.282+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:51:15.281+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:51:15.317+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.210 seconds
+[2024-01-18T21:52:08.876+0300] {processor.py:153} INFO - Started process (PID=5047) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:52:08.880+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:52:08.882+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:52:08.882+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:52:09.018+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:52:09.113+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:52:09.113+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:52:09.202+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:52:09.201+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:52:09.213+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:52:09.212+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:52:09.285+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.420 seconds
+[2024-01-18T21:53:07.882+0300] {processor.py:153} INFO - Started process (PID=5099) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:53:07.887+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:53:07.891+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:53:07.890+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:53:08.015+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:53:08.120+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:53:08.119+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:53:08.178+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:53:08.178+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:53:08.183+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:53:08.183+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:53:08.219+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.346 seconds
+[2024-01-18T21:54:06.996+0300] {processor.py:153} INFO - Started process (PID=5154) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:54:07.002+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T21:54:07.004+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:54:07.003+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:54:07.123+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T21:54:07.230+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:54:07.229+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T21:54:07.321+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:54:07.321+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T21:54:07.334+0300] {logging_mixin.py:137} INFO - [2024-01-18T21:54:07.334+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T21:54:07.402+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.429 seconds
+[2024-01-18T22:00:16.946+0300] {processor.py:153} INFO - Started process (PID=5490) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T22:00:16.953+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-01-18T22:00:16.956+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:00:16.956+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T22:00:17.058+0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-01-18T22:00:17.138+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:00:17.138+0300] {dag.py:2705} INFO - Sync 2 DAGs
+[2024-01-18T22:00:17.225+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:00:17.224+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-01-18T22:00:17.238+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:00:17.238+0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-01-18T22:00:17.308+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.392 seconds

@@ -1,0 +1,29 @@
+[2024-01-18T21:59:36.367+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Google_X_mention_score.train_model_theta manual__2024-01-18T18:56:27.556327+00:00 [queued]>
+[2024-01-18T21:59:36.400+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Google_X_mention_score.train_model_theta manual__2024-01-18T18:56:27.556327+00:00 [queued]>
+[2024-01-18T21:59:36.401+0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-18T21:59:36.402+0300] {taskinstance.py:1289} INFO - Starting attempt 1 of 2
+[2024-01-18T21:59:36.402+0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-18T21:59:36.431+0300] {taskinstance.py:1309} INFO - Executing <Task(BashOperator): train_model_theta> on 2024-01-18 18:56:27.556327+00:00
+[2024-01-18T21:59:36.444+0300] {standard_task_runner.py:55} INFO - Started process 5449 to run task
+[2024-01-18T21:59:36.462+0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'Google_X_mention_score', 'train_model_theta', 'manual__2024-01-18T18:56:27.556327+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/google_mention_score.py', '--cfg-path', '/tmp/tmp2gom5a8o']
+[2024-01-18T21:59:36.467+0300] {standard_task_runner.py:83} INFO - Job 18: Subtask train_model_theta
+[2024-01-18T21:59:36.641+0300] {task_command.py:389} INFO - Running <TaskInstance: Google_X_mention_score.train_model_theta manual__2024-01-18T18:56:27.556327+00:00 [running]> on host xflow
+[2024-01-18T21:59:36.783+0300] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=admin
+AIRFLOW_CTX_DAG_ID=Google_X_mention_score
+AIRFLOW_CTX_TASK_ID=train_model_theta
+AIRFLOW_CTX_EXECUTION_DATE=2024-01-18T18:56:27.556327+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-01-18T18:56:27.556327+00:00
+[2024-01-18T21:59:36.791+0300] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2024-01-18T21:59:36.799+0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/angry/mlops_4/scripts/train_model.py theta']
+[2024-01-18T21:59:36.847+0300] {subprocess.py:86} INFO - Output:
+[2024-01-18T21:59:52.389+0300] {subprocess.py:93} INFO - Registered model 'theta_model' already exists. Creating a new version of this model...
+[2024-01-18T21:59:52.443+0300] {subprocess.py:93} INFO - Created version '3' of model 'theta_model'.
+[2024-01-18T21:59:53.497+0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-01-18T21:59:53.566+0300] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=Google_X_mention_score, task_id=train_model_theta, execution_date=20240118T185627, start_date=20240118T185936, end_date=20240118T185953
+[2024-01-18T21:59:53.632+0300] {local_task_job.py:212} INFO - Task exited with return code 0
+[2024-01-18T21:59:53.687+0300] {taskinstance.py:2596} INFO - 1 downstream tasks scheduled from follow-on schedule check
