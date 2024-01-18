@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1705604224668
+current_stage: None
+description: null
+last_updated_timestamp: 1705604224668
+name: theta_model
+run_id: 66c7957df09a4c458e04dac3296e4a5b
+run_link: null
+source: /home/angry/mlops_4/mlflow/3/66c7957df09a4c458e04dac3296e4a5b/artifacts/theta_model
+status: READY
+status_message: null
+storage_location: /home/angry/mlops_4/mlflow/3/66c7957df09a4c458e04dac3296e4a5b/artifacts/theta_model
+user_id: null
+version: 2

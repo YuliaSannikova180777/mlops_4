@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1705604703835
+current_stage: None
+description: null
+last_updated_timestamp: 1705604703835
+name: naive_model
+run_id: e032de107ad34d2dab9f7d3d05afcc60
+run_link: null
+source: /home/angry/mlops_4/mlflow/1/e032de107ad34d2dab9f7d3d05afcc60/artifacts/naive_model
+status: READY
+status_message: null
+storage_location: /home/angry/mlops_4/mlflow/1/e032de107ad34d2dab9f7d3d05afcc60/artifacts/naive_model
+user_id: null
+version: 5
