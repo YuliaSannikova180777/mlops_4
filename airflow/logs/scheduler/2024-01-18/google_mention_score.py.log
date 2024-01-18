@@ -55,3 +55,27 @@
 [2024-01-18T22:03:14.743+0300] {processor.py:753} INFO - DAG(s) dict_keys(['Google_X_mention_score']) retrieved from /home/angry/mlops_4/airflow/dags/google_mention_score.py
 [2024-01-18T22:03:14.917+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:03:14.916+0300] {dag.py:2705} INFO - Sync 1 DAGs
 [2024-01-18T22:03:15.185+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/airflow/dags/google_mention_score.py took 0.551 seconds
+[2024-01-18T22:05:54.376+0300] {processor.py:153} INFO - Started process (PID=5815) to work on /home/angry/mlops_4/airflow/dags/google_mention_score.py
+[2024-01-18T22:05:54.381+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/airflow/dags/google_mention_score.py for tasks to queue
+[2024-01-18T22:05:54.383+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:05:54.382+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/airflow/dags/google_mention_score.py
+[2024-01-18T22:05:54.425+0300] {processor.py:753} INFO - DAG(s) dict_keys(['Google_X_mention_score']) retrieved from /home/angry/mlops_4/airflow/dags/google_mention_score.py
+[2024-01-18T22:05:54.490+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:05:54.489+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T22:05:54.633+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/airflow/dags/google_mention_score.py took 0.270 seconds
+[2024-01-18T22:08:39.059+0300] {processor.py:153} INFO - Started process (PID=5998) to work on /home/angry/mlops_4/airflow/dags/google_mention_score.py
+[2024-01-18T22:08:39.064+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/airflow/dags/google_mention_score.py for tasks to queue
+[2024-01-18T22:08:39.066+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:08:39.066+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/airflow/dags/google_mention_score.py
+[2024-01-18T22:08:39.119+0300] {processor.py:753} INFO - DAG(s) dict_keys(['Google_X_mention_score']) retrieved from /home/angry/mlops_4/airflow/dags/google_mention_score.py
+[2024-01-18T22:08:39.197+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:08:39.196+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T22:08:39.314+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/airflow/dags/google_mention_score.py took 0.266 seconds
+[2024-01-18T22:11:43.961+0300] {processor.py:153} INFO - Started process (PID=6185) to work on /home/angry/mlops_4/airflow/dags/google_mention_score.py
+[2024-01-18T22:11:43.966+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/airflow/dags/google_mention_score.py for tasks to queue
+[2024-01-18T22:11:43.968+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:11:43.967+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/airflow/dags/google_mention_score.py
+[2024-01-18T22:11:44.004+0300] {processor.py:753} INFO - DAG(s) dict_keys(['Google_X_mention_score']) retrieved from /home/angry/mlops_4/airflow/dags/google_mention_score.py
+[2024-01-18T22:11:44.068+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:11:44.068+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T22:11:44.210+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/airflow/dags/google_mention_score.py took 0.259 seconds
+[2024-01-18T22:15:00.639+0300] {processor.py:153} INFO - Started process (PID=6406) to work on /home/angry/mlops_4/airflow/dags/google_mention_score.py
+[2024-01-18T22:15:00.645+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/airflow/dags/google_mention_score.py for tasks to queue
+[2024-01-18T22:15:00.647+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:15:00.647+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/airflow/dags/google_mention_score.py
+[2024-01-18T22:15:00.687+0300] {processor.py:753} INFO - DAG(s) dict_keys(['Google_X_mention_score']) retrieved from /home/angry/mlops_4/airflow/dags/google_mention_score.py
+[2024-01-18T22:15:00.773+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:15:00.772+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-18T22:15:01.034+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/airflow/dags/google_mention_score.py took 0.411 seconds

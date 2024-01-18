@@ -113,3 +113,23 @@
 [2024-01-18T22:03:37.076+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:03:37.074+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
 [2024-01-18T22:03:37.088+0300] {processor.py:755} WARNING - No viable dags retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
 [2024-01-18T22:03:37.113+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.066 seconds
+[2024-01-18T22:06:15.317+0300] {processor.py:153} INFO - Started process (PID=5846) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-01-18T22:06:15.321+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-01-18T22:06:15.322+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:06:15.322+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-01-18T22:06:15.328+0300] {processor.py:755} WARNING - No viable dags retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-01-18T22:06:15.354+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.047 seconds
+[2024-01-18T22:09:05.579+0300] {processor.py:153} INFO - Started process (PID=6019) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-01-18T22:09:05.588+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-01-18T22:09:05.592+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:09:05.591+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-01-18T22:09:05.628+0300] {processor.py:755} WARNING - No viable dags retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-01-18T22:09:05.740+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.181 seconds
+[2024-01-18T22:12:11.301+0300] {processor.py:153} INFO - Started process (PID=6220) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-01-18T22:12:11.305+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-01-18T22:12:11.307+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:12:11.307+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-01-18T22:12:11.322+0300] {processor.py:755} WARNING - No viable dags retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-01-18T22:12:11.378+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.087 seconds
+[2024-01-18T22:15:32.378+0300] {processor.py:153} INFO - Started process (PID=6454) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-01-18T22:15:32.382+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-01-18T22:15:32.384+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:15:32.384+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-01-18T22:15:32.399+0300] {processor.py:755} WARNING - No viable dags retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-01-18T22:15:32.432+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.076 seconds

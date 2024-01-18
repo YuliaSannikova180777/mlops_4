@@ -2198,3 +2198,478 @@ File Path                                                                       
 /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2024-01-18T19:03:26
 /home/angry/mlops_4/airflow/dags/google_mention_score.py                                                                                         1           0  0.64s           2024-01-18T19:03:15
 ================================================================================
+[2024-01-18T22:05:52.692+0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-18T22:05:54.167+0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-01-18T22:05:54.173+0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-01-18T22:05:54.186+0300] {manager.py:489} INFO - Checking for new files in /home/angry/mlops_4/airflow/dags every 300 seconds
+[2024-01-18T22:05:54.187+0300] {manager.py:736} INFO - Searching for files in /home/angry/mlops_4/airflow/dags
+[2024-01-18T22:05:54.257+0300] {manager.py:739} INFO - There are 43 files in /home/angry/mlops_4/airflow/dags
+[2024-01-18T22:05:54.696+0300] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                          0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                        0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                            0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+/home/angry/mlops_4/airflow/dags/google_mention_score.py                                                                                         1           0  0.32s           2024-01-18T19:05:54
+================================================================================
+[2024-01-18T22:06:37.139+0300] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                          0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                        0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                           0           0  0.12s           2024-01-18T19:06:15
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  1.22s           2024-01-18T19:06:37
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                            0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2024-01-18T19:06:02
+/home/angry/mlops_4/airflow/dags/google_mention_score.py                                                                                         1           0  0.32s           2024-01-18T19:05:54
+================================================================================
+[2024-01-18T22:08:37.059+0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-18T22:08:38.565+0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-01-18T22:08:38.566+0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-01-18T22:08:38.567+0300] {manager.py:489} INFO - Checking for new files in /home/angry/mlops_4/airflow/dags every 300 seconds
+[2024-01-18T22:08:38.568+0300] {manager.py:736} INFO - Searching for files in /home/angry/mlops_4/airflow/dags
+[2024-01-18T22:08:38.729+0300] {manager.py:739} INFO - There are 43 files in /home/angry/mlops_4/airflow/dags
+[2024-01-18T22:08:39.365+0300] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                          0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                        0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                            0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+/home/angry/mlops_4/airflow/dags/google_mention_score.py                                                                                         1           0  0.33s           2024-01-18T19:08:39
+================================================================================
+[2024-01-18T22:09:36.180+0300] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                          0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                        0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                           0           0  0.32s           2024-01-18T19:09:05
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  1.45s           2024-01-18T19:09:36
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                            0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.13s           2024-01-18T19:08:49
+/home/angry/mlops_4/airflow/dags/google_mention_score.py                                                                                         1           0  0.33s           2024-01-18T19:08:39
+================================================================================
+[2024-01-18T22:11:42.387+0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-18T22:11:43.696+0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-01-18T22:11:43.697+0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-01-18T22:11:43.697+0300] {manager.py:489} INFO - Checking for new files in /home/angry/mlops_4/airflow/dags every 300 seconds
+[2024-01-18T22:11:43.698+0300] {manager.py:736} INFO - Searching for files in /home/angry/mlops_4/airflow/dags
+[2024-01-18T22:11:43.760+0300] {manager.py:739} INFO - There are 43 files in /home/angry/mlops_4/airflow/dags
+[2024-01-18T22:11:44.269+0300] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                          0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                        0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                            0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+/home/angry/mlops_4/airflow/dags/google_mention_score.py                                                                                         1           0  0.31s           2024-01-18T19:11:44
+================================================================================
+[2024-01-18T22:12:43.592+0300] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                          0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                        0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                           0           0  0.22s           2024-01-18T19:12:11
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  4.37s           2024-01-18T19:12:43
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                            0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.35s           2024-01-18T19:11:55
+/home/angry/mlops_4/airflow/dags/google_mention_score.py                                                                                         1           0  0.31s           2024-01-18T19:11:44
+================================================================================
+[2024-01-18T22:14:58.868+0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-18T22:15:00.295+0300] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-01-18T22:15:00.296+0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-01-18T22:15:00.297+0300] {manager.py:489} INFO - Checking for new files in /home/angry/mlops_4/airflow/dags every 300 seconds
+[2024-01-18T22:15:00.298+0300] {manager.py:736} INFO - Searching for files in /home/angry/mlops_4/airflow/dags
+[2024-01-18T22:15:00.407+0300] {manager.py:739} INFO - There are 43 files in /home/angry/mlops_4/airflow/dags
+[2024-01-18T22:15:01.151+0300] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                          0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                        0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                            0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+/home/angry/mlops_4/airflow/dags/google_mention_score.py                                                                                         1           0  0.52s           2024-01-18T19:15:01
+================================================================================
+[2024-01-18T22:15:32.547+0300] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                          0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                        0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                           0           0  0.24s           2024-01-18T19:15:32
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                            0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2024-01-18T19:15:13
+/home/angry/mlops_4/airflow/dags/google_mention_score.py                                                                                         1           0  0.52s           2024-01-18T19:15:01
+================================================================================
+[2024-01-18T22:16:06.272+0300] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                          0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                        0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                           0           0  0.24s           2024-01-18T19:15:32
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  1.55s           2024-01-18T19:16:06
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                            0           0
+/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2024-01-18T19:15:13
+/home/angry/mlops_4/airflow/dags/google_mention_score.py                                                                                         1           0  0.52s           2024-01-18T19:15:01
+================================================================================
+[2024-01-18T22:17:33.850+0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

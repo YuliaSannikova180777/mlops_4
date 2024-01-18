@@ -21,3 +21,9 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-01-01T02:30:00+00:00
  /tmp
 [2024-01-18T22:05:23.273+0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/angry/mlops_4/scripts/train_model.py exp']
 [2024-01-18T22:05:23.298+0300] {subprocess.py:86} INFO - Output:
+[2024-01-18T22:05:38.696+0300] {subprocess.py:93} INFO - Registered model 'exp_model' already exists. Creating a new version of this model...
+[2024-01-18T22:05:38.731+0300] {subprocess.py:93} INFO - Created version '5' of model 'exp_model'.
+[2024-01-18T22:05:39.456+0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-01-18T22:05:39.492+0300] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=Google_X_mention_score, task_id=train_model_exp, execution_date=20240101T023000, start_date=20240118T190522, end_date=20240118T190539
+[2024-01-18T22:05:39.525+0300] {local_task_job.py:212} INFO - Task exited with return code 0
+[2024-01-18T22:05:39.547+0300] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

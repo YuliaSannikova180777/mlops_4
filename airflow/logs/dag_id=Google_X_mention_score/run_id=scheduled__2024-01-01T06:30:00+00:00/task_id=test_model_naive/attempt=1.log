@@ -1,0 +1,40 @@
+[2024-01-18T22:17:17.125+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Google_X_mention_score.test_model_naive scheduled__2024-01-01T06:30:00+00:00 [queued]>
+[2024-01-18T22:17:17.171+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Google_X_mention_score.test_model_naive scheduled__2024-01-01T06:30:00+00:00 [queued]>
+[2024-01-18T22:17:17.172+0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-18T22:17:17.172+0300] {taskinstance.py:1289} INFO - Starting attempt 1 of 2
+[2024-01-18T22:17:17.172+0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-18T22:17:17.229+0300] {taskinstance.py:1309} INFO - Executing <Task(BashOperator): test_model_naive> on 2024-01-01 06:30:00+00:00
+[2024-01-18T22:17:17.281+0300] {standard_task_runner.py:55} INFO - Started process 6591 to run task
+[2024-01-18T22:17:17.331+0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'Google_X_mention_score', 'test_model_naive', 'scheduled__2024-01-01T06:30:00+00:00', '--job-id', '67', '--raw', '--subdir', 'DAGS_FOLDER/google_mention_score.py', '--cfg-path', '/tmp/tmp0ka_jl8t']
+[2024-01-18T22:17:17.352+0300] {standard_task_runner.py:83} INFO - Job 67: Subtask test_model_naive
+[2024-01-18T22:17:18.105+0300] {task_command.py:389} INFO - Running <TaskInstance: Google_X_mention_score.test_model_naive scheduled__2024-01-01T06:30:00+00:00 [running]> on host xflow
+[2024-01-18T22:17:18.413+0300] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=admin
+AIRFLOW_CTX_DAG_ID=Google_X_mention_score
+AIRFLOW_CTX_TASK_ID=test_model_naive
+AIRFLOW_CTX_EXECUTION_DATE=2024-01-01T06:30:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-01-01T06:30:00+00:00
+[2024-01-18T22:17:18.422+0300] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2024-01-18T22:17:18.424+0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/angry/mlops_4/scripts/test_model.py naive']
+[2024-01-18T22:17:18.478+0300] {subprocess.py:86} INFO - Output:
+[2024-01-18T22:17:32.926+0300] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 6591. PIDs of all processes in the group: [6592, 6591]
+[2024-01-18T22:17:32.926+0300] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 6591
+[2024-01-18T22:17:32.927+0300] {taskinstance.py:1488} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-01-18T22:17:32.927+0300] {subprocess.py:104} INFO - Sending SIGTERM signal to process group
+[2024-01-18T22:17:33.186+0300] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/operators/bash.py", line 187, in execute
+    result = self.subprocess_hook.run_command(
+  File "/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/hooks/subprocess.py", line 91, in run_command
+    for raw_line in iter(self.sub_process.stdout.readline, b""):
+  File "/home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1490, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2024-01-18T22:17:33.318+0300] {taskinstance.py:1327} INFO - Marking task as UP_FOR_RETRY. dag_id=Google_X_mention_score, task_id=test_model_naive, execution_date=20240101T063000, start_date=20240118T191717, end_date=20240118T191733
+[2024-01-18T22:17:33.447+0300] {standard_task_runner.py:100} ERROR - Failed to execute job 67 for task test_model_naive (Task received SIGTERM signal; 6591)
+[2024-01-18T22:17:33.504+0300] {process_utils.py:79} INFO - Process psutil.Process(pid=6592, status='terminated', started='22:17:18') (6592) terminated with exit code None
+[2024-01-18T22:17:33.505+0300] {process_utils.py:79} INFO - Process psutil.Process(pid=6591, status='terminated', exitcode=1, started='22:17:16') (6591) terminated with exit code 1

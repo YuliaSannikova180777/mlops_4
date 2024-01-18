@@ -113,3 +113,23 @@
 [2024-01-18T22:03:57.264+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:03:57.263+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
 [2024-01-18T22:03:58.539+0300] {processor.py:755} WARNING - No viable dags retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
 [2024-01-18T22:03:58.606+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 1.369 seconds
+[2024-01-18T22:06:35.939+0300] {processor.py:153} INFO - Started process (PID=5869) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-01-18T22:06:35.943+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-01-18T22:06:35.945+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:06:35.945+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-01-18T22:06:37.054+0300] {processor.py:755} WARNING - No viable dags retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-01-18T22:06:37.081+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 1.151 seconds
+[2024-01-18T22:09:34.768+0300] {processor.py:153} INFO - Started process (PID=6044) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-01-18T22:09:34.773+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-01-18T22:09:34.776+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:09:34.775+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-01-18T22:09:36.095+0300] {processor.py:755} WARNING - No viable dags retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-01-18T22:09:36.143+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 1.390 seconds
+[2024-01-18T22:12:39.298+0300] {processor.py:153} INFO - Started process (PID=6260) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-01-18T22:12:39.306+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-01-18T22:12:39.310+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:12:39.310+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-01-18T22:12:43.526+0300] {processor.py:755} WARNING - No viable dags retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-01-18T22:12:43.547+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 4.265 seconds
+[2024-01-18T22:16:04.833+0300] {processor.py:153} INFO - Started process (PID=6512) to work on /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-01-18T22:16:04.838+0300] {processor.py:743} INFO - Processing file /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-01-18T22:16:04.844+0300] {logging_mixin.py:137} INFO - [2024-01-18T22:16:04.843+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-01-18T22:16:06.175+0300] {processor.py:755} WARNING - No viable dags retrieved from /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-01-18T22:16:06.220+0300] {processor.py:175} INFO - Processing /home/angry/mlops_4/venv4/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 1.404 seconds
