@@ -1,0 +1,465 @@
+# 1. Работаем с ВМ airflow 
+
+# 1.1. Устанавливаем необходимые для работы пакеты (если не сделали этого в Дз3)
+sudo apt-get update -y && sudo apt-get install software-properties-common -y && sudo apt-get install python-setuptools -y && sudo apt install python3-pip -y && sudo apt install libpq-dev -y && sudo apt install postgresql -y
+
+# Устанавливаем Git
+sudo apt install git
+
+# Настраиваем информацию об авторе
+git config --global user.email "sannikovayi@gmail.com"
+git config --global user.name "YuliaSannikova180777"
+
+# 1.2. Настраиваем Git
+
+# На GitHub создаём репозиторий  mlops_4
+
+# На ВМ генерируем SSH
+ssh-keygen -t ed25519 -C "sannikovayi@gmail.com"
+
+# Копируем ssh-rsa, для этого можно вывести его на экран для удобства
+cat ~/.ssh/id_ed25519.pub
+# Вставляем в GitHub, для этого заходим в настройки репозитория Settings > Deploy keys > Add deploy key (Allow write access)
+
+# Настраиваем удалённый репозиторий по SSH
+git remote set-url origin git@github.com:YuliaSannikova180777/mlops_4.git
+
+# Клонируем репозиторий на ВМ (обязательно по SSH)
+git clone git@github.com:YuliaSannikova180777/mlops_4.git
+yes
+
+
+# 2. Проект по МОМО
+
+# 2.1. Настраиваем сетевое окружение на ВМ (если не сделали этого в Дз3)
+
+# Настраиваем сетевое окружение на ВМ (предварительно выключенной)
+ВМ > Настройки > Сеть > Адаптер 2 (NAT) > Дополнительно > Проброс портов > Добавляем новое правило проброса портов
+ssh, TCP, Адрес хоста Пусто, Порт хоста 22222, Адрес гостя Пусто, Порт гостя 22
+# Перезапускаем ВМ
+
+# Редактируем на хосте конфигурационный файл ssh через кнопку >< слева внизу в VS Code 
+Open SSH Configuration File... > C:\Users\sanni\.ssh\config
+Host prod-srv
+    HostName 127.0.0.1
+    User angry
+    Port 22222
+File > Save > Закрыть х
+
+# Открываем удалённое подключение, нажав на кнопку >< слева внизу в VS Code 
+Connect to Host... > prod-srv > Linux > Продолжить > Пароль и Enter
+
+# 2.2. Настраиваем виртуальное окружение
+
+# Далее работаем через терминал в VS Code
+# Переходим в каталог проекта/локального репозитория mlops_4
+cd mlops_4
+
+# убедимся, что каталоги созданы 
+ll
+
+# Если нет то:
+# Создаём там все необходимые каталоги
+mkdir airflow datasets mlflow models scripts
+
+# Прописываем эскпорт переменных, чтобы они сами устанавливались при запуске терминала
+nano ~/.bashrc
+
+# Добавляем строки в самом конце файла
+export AIRFLOW_HOME=~/mlops_4/airflow
+export MLFLOW_REGISTRY_URI=~/mlops_4/mlflow
+
+# Может быть необходимость установить 
+sudo apt install python3.10-venv
+
+# Создаём и активируем виртуальное окружение venv4
+python -m venv venv4
+source venv4/bin/activate
+
+# Устанавливаем все необходимые для работы пакеты
+sudo apt-get install sqlite3 libsqlite3-dev -y && sudo apt install python3-pip -y && sudo apt install libpq-dev -y && sudo apt install gcc -y
+pip install pysqlite3 && pip install psycopg2 && pip install pandas && pip install sktime[all_extras]
+
+# Создаём каталоги airflow/dags и airflow/logs и выдаём на них все права
+mkdir airflow/dags airflow/logs
+chmod 777 airflow/dags && chmod 777 airflow/logs
+
+# 2.3. Устанавливаем AirFlow и дополнительные пакеты
+
+# В переменной окружения AIRFLOW_HOME указываем домашний каталог для хранения конфигурационных файов и скриптов, которые будет запускать AirFlow
+export AIRFLOW_HOME=~/mlops_4/airflow
+
+# Устанавливаем Airflow вместе с зависимостями
+sudo pip3 install apache-airflow 
+pip install "apache-airflow[celery]==2.5.3" --constraint https://raw.githubusercontent.com/apache/airflow/constraints-2.5.3/constraints-3.7.txt
+
+# Создаём пользователя, задаём для него пароль, создаём БД, выдаём ему права
+sudo -u postgres psql
+
+postgres=# CREATE USER admin PASSWORD '1234';
+CREATE ROLE
+postgres=# CREATE DATABASE mlops4;
+CREATE DATABASE
+postgres=# GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO admin;
+GRANT
+postgres=# ^d
+\q
+
+# Запускаем инициализацию БД
+airflow db init
+
+# Настраиваем файл конфигурации airflow.cfg 
+nano airflow/airflow.cfg
+
+# В разделе [database] меняем строку sql_alchemy_conn = sqlite:////home/angry/mlops4/airflow.db на
+sql_alchemy_conn = postgresql+psycopg2://admin:1234@localhost/mlops4
+(я ранее меняла путь)
+
+# Сохраняем ^O, подтверждаем Enter и выходим ^X из nano
+
+# Создаём пользователя, задаём для него пароль
+airflow users create --username admin --firstname Yulia --lastname Sannikova --role Admin --email test@example.org
+# Далее система попросит вас задать и подтвердить пароль
+1234
+
+# Обновляем БД
+airflow db upgrade
+
+# 2.4. Запускаем airflow scheduler и webserver
+
+# Запускаем планировщик задач для обработки запущенных скриптов внутри AirFlow (^C если надо выйти)
+airflow scheduler
+
+# Запускаем веб-сервер в отдельном окне терминала (^C если надо выйти)
+cd mlops_4 && source venv4/bin/activate
+airflow webserver -p 8080
+# Запускаем в браузере страницу Airflow (с адресом http://localhost:8080/)
+# Когда станет ненужен, набираем ^c, потом deactivate
+
+# Если нужно найти и остановить процессы, содержащие в названии airflow
+# kill -9 `ps aux | grep airflow | awk ‘{print $2}’`
+
+# 2.5. Устанавливаем и запускаем MLflow server в отдельном окне терминала (^C если надо выйти)
+cd mlops_4 && source venv4/bin/activate
+
+# В переменной окружения MLFLOW_REGISTRY_URI указываем домашний каталог для хранения конфигурационных файов и скриптов, которые будет запускать MlFlow
+export MLFLOW_REGISTRY_URI=~/mlops_4/mlflow
+
+# Устанавливаем пакет Mlflow
+pip install mlflow
+
+# В качестве БД также используется sqlite, как и для airflow, поэтому специально ПО базы данных sqlite устанавливать не надо.
+# Однако, если airflow и mlflow функционируют на разных серверах, потребуется sqlite установить каждый раз отдельно для каждого сервера.
+
+# Запускаем MLflow server в отдельном окне терминала (^C если надо выйти)
+mlflow server --host localhost --port 5000 --backend-store-uri sqlite:///${MLFLOW_REGISTRY_URI}/mlflow.db --default-artifact-root ${MLFLOW_REGISTRY_URI}
+
+# Запускаем в браузере страницу MLflow (с адресом http://127.0.0.1:5000)
+
+# 3. В отдельном окне терминала создаём скрипты в каталоге scripts
+cd mlops_4 && source venv4/bin/activate
+
+# Переходим в каталог scripts
+cd scripts
+
+# 3.1. Скрипт get_data.py
+nano get_data.py
+
+# Импорт библиотеки пандас
+import pandas as pd
+
+
+# Загрузка и преобразование данных
+PATH_base = 'https://raw.githubusercontent.com/numenta/NAB/master/data/realTweets/Twitter_volume_GOOG.csv'
+data = pd.read_csv(PATH_base, index_col='timestamp', parse_dates=True)
+data['date'] = pd.to_datetime(data.index).date
+data['hour'] = pd.to_datetime(data.index).hour
+
+# Запись преобразованных данных
+data.to_csv('/home/angry/mlops_4/datasets/data.csv', index_label='timestamp')
+
+# Сохраняем ^O, подтверждаем Enter и выходим ^X из nano
+
+# 3.2. Скрипт process_data.py
+nano process_data.py
+
+# Импорт библиотеки пандас
+import pandas as pd
+
+# Чтение данных из CSV-файла в объект DataFrame
+data = pd.read_csv('/home/angry/mlops_4/datasets/data.csv', index_col='timestamp', parse_dates=True)
+
+# Обработка данных
+df = data.groupby('date').sum()
+df.drop(df.tail(1).index, inplace=True)
+df.drop(df.head(1).index, inplace=True)
+numeric_df = data.select_dtypes(include=['number'])
+df_h = numeric_df.groupby(pd.Grouper(freq='1h')).sum()
+df_h.drop(df_h.tail(1).index, inplace=True)
+df_h.drop(df_h.head(1).index, inplace=True)
+df_h.hour = pd.to_datetime(df_h.index).hour
+df_h.value = df_h.value.astype('float')
+
+# Запись обработанных данных
+df_h.to_csv('/home/angry/mlops_4/datasets/data_processed.csv', index_label='timestamp')
+
+# Сохраняем ^O, подтверждаем Enter и выходим ^X из nano
+
+# 3.3. Скрипт train_test_split.py
+nano train_test_split.py
+
+# Импорт библиотек
+import pandas as pd
+import numpy as np
+from sktime.forecasting.model_selection import temporal_train_test_split
+
+# Чтение данных из CSV-файла в объект DataFrame 
+df = pd.read_csv('/home/angry/mlops_4/datasets/data_processed.csv', index_col='timestamp', parse_dates=True)
+
+# Отбрасываем выбросы
+y_h = df.value
+y = y_h.copy()
+y.loc[y < 75] = 75
+y.loc[y > 450] = 450
+
+# Разбиение данных на обучающую и тестовую выборки
+TEST_SIZE = 0.4
+y_train, y_test = temporal_train_test_split(y, test_size=TEST_SIZE)
+
+# Запись обучающей выборки в CSV-файл
+y_train.to_csv('/home/angry/mlops_4/datasets/data_train.csv', index_label='timestamp')
+
+# Запись тестовой выборки в CSV-файл
+y_test.to_csv('/home/angry/mlops_4/datasets/data_test.csv', index_label='timestamp')
+
+# Сохраняем ^O, подтверждаем Enter и выходим ^X из nano
+
+# 3.4. Скрипт train_model.py
+nano train_model.py
+
+# Этот скрипт принимает 1 аргумент командной строки: имя модели (naive, exp, theta)
+# Импорт библиотек
+from sktime.forecasting.base import ForecastingHorizon
+from sktime.forecasting.exp_smoothing import ExponentialSmoothing
+from sktime.forecasting.naive import NaiveForecaster
+from sktime.forecasting.theta import ThetaForecaster
+import pickle
+import pandas as pd
+import os
+import sys
+import mlflow
+from mlflow.tracking import MlflowClient
+
+
+# Имя модели передаётся как 1-й аргумент командной строки
+model_name = sys.argv[1]
+SEASON = 24*7
+
+# Установка URI для отслеживания экспериментов в MLflow
+mlflow.set_tracking_uri("http://localhost:5000")
+mlflow.set_experiment(f'train_model_{model_name}')
+
+# Чтение данных из CSV-файла в объект DataFrame
+y_train = pd.read_csv('/home/angry/mlops_4/datasets/data_train.csv', index_col='timestamp', parse_dates=True)
+y_test = pd.read_csv('/home/angry/mlops_4/datasets/data_test.csv', index_col='timestamp', parse_dates=True)
+y_train = y_train.asfreq('H')
+y_test = y_test.asfreq('H')
+
+# Создание объекта ForecastingHorizon с правильной частотой
+fh = ForecastingHorizon(y_test.index, is_relative=False, freq='H')
+
+# Выбор и обучение модели на основе аргумента командной строки
+if model_name == "naive":  # Наивное сезонное предсказание с суточной сезонностью
+    model = NaiveForecaster(strategy="mean", sp=SEASON)
+    model.fit(y_train)
+elif model_name == "exp":  # Предсказание тройным экспоненциальным сглаживанием с учётом тренда и сезонности
+    model = ExponentialSmoothing(trend="mul", seasonal="add", sp=SEASON, method='ls')
+    model.fit(y_train)
+elif model_name == "theta":  # Предсказание двойным экспоненциальным сглаживанием с учётом тренда
+    model = ThetaForecaster(sp=SEASON)
+    model.fit(y_train, fh=fh)
+else:
+    raise ValueError("Invalid model name provided")
+
+# Работа с MLflow
+with mlflow.start_run():
+    mlflow.sklearn.log_model(model,  # Логирование модели
+                             artifact_path=f"{model_name}_model",
+                             registered_model_name=f"{model_name}_model")
+    mlflow.log_artifact(local_path="/home/angry/mlops_4/scripts/train_model.py",
+                        artifact_path="train_model code")  # Логирование кода
+    mlflow.end_run()
+
+# Сохранение модели в файл pickle
+with open(f'/home/angry/mlops_4/models/{model_name}_model.pickle', 'wb') as f:
+    pickle.dump(model, f)
+
+# Сохраняем ^O, подтверждаем Enter и выходим ^X из nano
+
+# 3.5. Скрипт test_model.py
+nano test_model.py
+
+# Этот скрипт принимает 1 аргумент командной строки: имя модели (naive, exp, theta)
+# Импорт библиотек
+from sktime.forecasting.base import ForecastingHorizon
+from sktime.forecasting.exp_smoothing import ExponentialSmoothing
+from sktime.forecasting.naive import NaiveForecaster
+from sktime.forecasting.theta import ThetaForecaster
+from sktime.performance_metrics.forecasting import MeanAbsolutePercentageError
+import sys
+import pickle
+import pandas as pd
+import mlflow
+from mlflow.tracking import MlflowClient
+
+# Имя модели передаётся как 1-й аргумент командной строки
+model_name = sys.argv[1]
+SEASON = 24*7
+
+# Установка URI для отслеживания экспериментов в MLflow
+mlflow.set_tracking_uri("http://localhost:5000")
+mlflow.set_experiment(f'test_model_{model_name}')
+
+# Чтение данных из CSV-файла в объект DataFrame
+y_test = pd.read_csv('/home/angry/mlops_4/datasets/data_test.csv', index_col='timestamp', parse_dates=True)
+y_test = y_test.asfreq('H')
+
+# Создание объекта ForecastingHorizon с правильной частотой
+fh = ForecastingHorizon(y_test.index, is_relative=False, freq='H')
+
+# Выбор и обучение модели на основе аргумента командной строки
+if model_name == "naive":  # Наивное сезонное предсказание с суточной сезонностью
+    model = NaiveForecaster(strategy="mean", sp=SEASON)
+elif model_name == "exp":  # Предсказание тройным экспоненциальным сглаживанием с учётом тренда и сезонности
+    model = ExponentialSmoothing(trend="mul", seasonal="add", sp=SEASON, method='ls')
+elif model_name == "theta":  # Предсказание двойным экспоненциальным сглаживанием с учётом тренда
+    model = ThetaForecaster(sp=SEASON)
+else:
+    raise ValueError("Invalid model name provided")
+
+# Загрузка модели из файла pickle
+with open(f'/home/angry/mlops_4/models/{model_name}_model.pickle', 'rb') as f:
+    model = pickle.load(f)
+
+# Работа с MLflow
+with mlflow.start_run():
+    # Вычисление и вывод оценки
+    y_pred = model.predict(fh)
+    smape = MeanAbsolutePercentageError(symmetric = True)
+    score = smape(y_test.values, y_pred.values)
+    mlflow.log_metric("sMAPE", score)  # Логирование метрики sMAPE
+    mlflow.log_artifact(local_path="/home/angry/mlops_4/scripts/test_model.py",
+                        artifact_path="test_model code")  # Логирование кода
+    mlflow.end_run()
+
+# Сохраняем ^O, подтверждаем Enter и выходим ^X из nano
+
+# 3.6. Запускаем скрипты для проверки
+python get_data.py
+python process_data.py
+python train_test_split.py
+python train_model.py naive
+python train_model.py exp
+python train_model.py theta
+python test_model.py naive
+python test_model.py exp
+python test_model.py theta
+
+# 4. Создаём скрипт пайплайна в каталоге airflow/dags
+
+# Переходим в каталог airflow/dags
+cd ..
+cd airflow/dags
+
+# 4.1. Создаём скрипт google_mention_score.py
+nano google_mention_score.py
+
+# Импорт модулей
+from airflow import DAG
+from airflow.operators.bash import BashOperator
+import pendulum
+import datetime as dt
+
+
+# Передача аргумента в скрипты train_model.py и test_model.py
+models = ['naive', 'exp', 'theta']
+
+# Определение базовых аргументов для DAG
+args = {
+    "owner": "admin",
+    "start_date": dt.datetime(2024, 1, 1),
+    "retries": 1,
+    "retry_delays": dt.timedelta(minutes=1),
+    "depends_on_past": False
+}
+
+# Создание DAG 
+with DAG(
+    dag_id='Google_X_mention_score',
+    default_args=args,
+    schedule='30 * * * *',
+    max_active_runs=1,
+    tags=['Google', 'X', 'score']
+) as dag:
+    get_data = BashOperator(task_id='get_data',
+                            bash_command="python3 /home/angry/mlops_4/scripts/get_data.py",
+                            dag=dag)
+    process_data = BashOperator(task_id='process_data',
+                            bash_command="python3 /home/angry/mlops_4/scripts/process_data.py",
+                            dag=dag)
+    train_test_split = BashOperator(task_id='train_test_split',
+                            bash_command="python3 /home/angry/mlops_4/scripts/train_test_split.py",
+                            dag=dag)
+    for model in models:
+        train_model = BashOperator(
+            task_id=f'train_model_{model}',
+            bash_command=f"python3 /home/angry/mlops_4/scripts/train_model.py {model}",
+            dag=dag
+        )
+        test_model = BashOperator(
+            task_id=f'test_model_{model}',
+            bash_command=f"python3 /home/angry/mlops_4/scripts/test_model.py {model}",
+            dag=dag
+        )
+
+    get_data >> process_data >> train_test_split >> train_model >> test_model
+
+# Сохраняем ^O, подтверждаем Enter и выходим ^X из nano
+
+# 4.2. Запускаем скрипт для проверки
+python google_mention_score.py
+
+# 5. Сохраняем requirements.txt и скриншоты
+
+# Переходим на сервер Airflow во вкладку DAGs, находим google_mention_score, нажимаем на кнопку слева Pause/Unpause DAG
+# Переходим на сервер MLflow > Experiments > train_model > последний > naive > requirements.txt > Копируем содержимое
+
+# Переходим в каталог xflow
+cd ..
+cd ..
+nano requirements.txt
+
+# Вставляем содержимое, сохраняем ^O, подтверждаем Enter и выходим ^X из nano
+
+# Останавливаем все сервера и шедулер ^C
+
+# Создаём каталог скриншотов
+mkdir screenshots
+
+# 6. Сохраняем репозиторий на GitHub
+
+# Добавляем к отслеживанию каталоги и файлы
+git status
+git add airflow datasets mlflow models screenshots scripts requirements.txt
+git status
+
+# Делаем коммит "Push all"
+git commit -m "Push all"
+
+# Публикуем изменения
+git push origin master
+# Проверяем репозиторий в GitHub - там должны появиться каталоги и файл requirements.txt
+
+# Выходим из виртуальной среды, закрываем терминалы
+deactivate
+
