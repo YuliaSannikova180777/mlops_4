@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1705605276755
+current_stage: None
+description: null
+last_updated_timestamp: 1705605276755
+name: exp_model
+run_id: a1696409584d4a8bbf9af70392a662c3
+run_link: null
+source: /home/angry/mlops_4/mlflow/2/a1696409584d4a8bbf9af70392a662c3/artifacts/exp_model
+status: READY
+status_message: null
+storage_location: /home/angry/mlops_4/mlflow/2/a1696409584d4a8bbf9af70392a662c3/artifacts/exp_model
+user_id: null
+version: 8
